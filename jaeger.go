@@ -3,7 +3,7 @@ package jaegerecho
 import (
 	"io"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
